@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scratch Page</title>
+  <link rel="stylesheet" href="scratch.css" />
+
+  <!-- VOGUE-style font for headers -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #ffffff;
+      color: #111;
+      padding: 40px;
+      line-height: 1.7;
+    }
+
+    h1, h2 {
+      font-family: 'Playfair Display', 'Georgia', serif;
+      color: #000;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: underline;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: #444;
+    }
+
+    .style-box {
+      text-align: center;
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 600px;
+      font-weight: 600;
+      font-size: 18px;
+      letter-spacing: 0.5px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto 30px auto;
+      max-width: 100%;
+      border-radius: 0;
+    }
+
+    iframe {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border: none;
+    }
+
+    ol, ul {
+      margin-left: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 24px;
+      background: #000;
+      color: #fff;
+      border: none;
+      text-decoration: none;
+      font-size: 14px;
+      letter-spacing: 1px;
+      margin: 20px auto;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #333;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    p, ol {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="top">What Am I wearing today?</h1>
+
+  <div class="image-row">
+  <!-- Four Outfit Photos in a Row -->
+<div class="image-row">
+  <img src="../assets/6E40C4EF-EA0A-46F3-8C09-95827F72E37E.jpeg" alt="Outfit">
+</div>
+
+</div>
+
+
+  <p><a href="#video">Jump to My Favorite Fashion Video; How to Elevate your style ↓</a></p>
+
+  <h2>My Top Fashion Brands</h2>
+  <ol>
+    <li> Brands I Love
+      <ul>
+        <li>Zara</li>
+        <li>Mango</li>
+        <li>Bershka</li>
+        <li>Pacsun</li>
+        <li>Abercrombie</li>
+        <li>Böhme</li>
+        <li>Levi’s</li>
+      </ul>
+    </li>
+    <li>Bonus Pick: Aritzia</li>
+  </ol>
+
+  <img src="../assets/outfit1pinterest.jpg" alt="My Outfit" width="300" />
+
+  <div class="style-box">
+  <img src="../assets/outfitidea2pinterest.jpg" alt="Outfit 1" class="outfit-pic">
+  <p>Outfit Idea #1: Basic shirt with jeans and adidas samba/gazelle✨</p>
+</div>
+
+<div class="style-box">
+  <img src="../assets/outfitidea3pinterest.jpg" alt="Outfit 2" class="outfit-pic">
+  <p>Outfit Idea #2: Baby white tee + black skirt + flip flops (streetwear vibes)</p>
+</div>
+
+<div class="style-box">
+  <img src="../assets/outfit3.jpg" alt="Outfit 3" class="outfit-pic">
+  <p>Outfit Idea #3: Red linen dress + sandals + sunglasses 🍂</p>
+</div>
+
+
+  <h2 id="video">My Favorite Fashion Video</h2>
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/klKVm1FALhs"
+    title="How to Make Your Outfits Better"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+
+  <h2>Fashion Quiz</h2>
+  <p>Not sure what your vibe is today? Take the quiz to find out your style match!</p>
+  <div style="text-align: center;">
+    <a href="app.html" class="btn">Take My Fashion Quiz</a>
+  </div>
+
+
+ <h2 id="data-viz">Fashion Data Visualization</h2>
+
+<!-- Tableau Graph Embed -->
+<div class='tableauPlaceholder' id='viz1750115547201' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt='Sheet 1 ' src='https://public.tableau.com/static/images/HX/HX34MM656/1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='path' value='shared&#47;HX34MM656' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https://public.tableau.com/static/images/HX/HX34MM656/1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object>
+</div>
+
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1750115547201');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width = '100%';
+  vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+</body>
+</html>

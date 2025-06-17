@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fashion Style Quiz</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fdf2f8;
+      padding: 2rem;
+      color: #333;
+    }
+
+    h1 {
+      color: #c71585;
+    }
+
+    select, button {
+      padding: 0.5rem;
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+
+    .result {
+      margin-top: 2rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    a {
+      display: block;
+      margin-top: 2rem;
+      color: #c71585;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>What’s Your Style?</h1>
+
+  <p>Pick a vibe to get a brand suggestion:</p>
+
+  <select id="styleChoice">
+    <option value="">-- Select Your Style --</option>
+    <option value="casual">Casual</option>
+    <option value="edgy">Edgy</option>
+    <option value="minimal">Minimal</option>
+    <option value="classy">Classy</option>
+  </select>
+
+  <br>
+  <button onclick="getSuggestion()">Get Brand</button>
+
+  <p class="result" id="output"></p>
+
+  <a href="scratch.html">← Back to Scratch Page</a>
+
+  <script>
+    function getSuggestion() {
+      const choice = document.getElementById("styleChoice").value;
+      let result = "";
+
+      if (choice === "casual") {
+        result = "Try Mango or H&M!";
+      } else if (choice === "edgy") {
+        result = "You might love AllSaints or Bershka.";
+      } else if (choice === "minimal") {
+        result = "Go with Uniqlo or COS!";
+      } else if (choice === "classy") {
+        result = "Check out Zara or Massimo Dutti.";
+      } else {
+        result = "Please select a style first!";
+      }
+
+      document.getElementById("output").innerText = result;
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+
+.masthead {
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+.masthead h1 {
+  color: rgb(255, 255, 255);
+}
+
+}
+.masthead h1 {
+  color: white;
+}
+.navbar .nav-link {
+  color: white !important;
+}
+h1.text-uppercase {
+  color: white !important;
+}
+h1.text-uppercase {
+  color: #ffffff !important; /* Solid white */
+  opacity: 1 !important;     /* Fully opaque */
+}
+header.masthead h1 {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+.masthead h1.mx-auto {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+.btn-butter {
+  background-color: #161616;
+  border: none;
+  color: black;
+  font-weight: 600;
+}
+
+.btn-butter:hover {
+  background-color: #21211f;
+  color: black;
+}
+.masthead {
+  background-color: black;
+  background-image: none !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+/* Butter yellow color */
+:root {
+  --butter-yellow: #f6e7c1;
+}
+
+/* Style the primary button */
+.btn-primary {
+  background-color: var(--butter-yellow);
+  border-color: var(--butter-yellow);
+  color: black; /* adjust for contrast */
+}
+
+/* Optional: Button hover effect */
+.btn-primary:hover {
+  background-color: #f2db9b; /* slightly darker butter yellow */
+  border-color: #f2db9b;
+  color: black;
+}
+.btn-butter {
+  background-color: #fce883; /* butter yellow */
+  color: black;
+  border: none;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-butter:hover {
+  background-color: #f9df63; /* slightly darker on hover */
+  color: black;
+}
